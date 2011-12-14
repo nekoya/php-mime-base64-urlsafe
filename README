@@ -1,0 +1,12 @@
+PHP version of Perl's MIME::Base64::URLSafe
+
+This module is URL-safe base64 encoder / decoder.
+
+<?php
+require 'MIME_Base64_URLSafe.php';
+
+$encoded = MIME_Base64_URLSafe::encode($plain_data);
+$decoded = MIME_Base64_URLSafe::decode($encoded);
+?>
+
+Ryo Miyake
