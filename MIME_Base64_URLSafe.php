@@ -20,7 +20,7 @@ class MIME_Base64_URLSafe {
      */
     public static function encode($data) {
         $from = array('+', '/', '=');
-        $to   = array('-', '_', '');
+        $to   = array('-', '_');
         return str_replace($from, $to, base64_encode($data));
     }
 
