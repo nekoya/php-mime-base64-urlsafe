@@ -1,6 +1,10 @@
 <?php
 require 'MIME_Base64_URLSafe.php';
 
+/*
+ * These test cases imported from
+ * http://cpansearch.perl.org/src/KAZUHO/MIME-Base64-URLSafe-0.01/t/MIME-Base64-URLSafe.t
+ */
 class MIME_Base64_URLSafe_Test extends PHPUnit_Framework_TestCase {
     public function testEncodeAndDecode() {
         $o = "\0\0\0\0";
